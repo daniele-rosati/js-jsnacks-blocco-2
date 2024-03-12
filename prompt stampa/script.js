@@ -2,10 +2,10 @@
 // se è dispari stampa il numero successivo
 
 // l'untente inseriesce un numero
-const numero = parseInt(prompt("Inserisci un numero:"));
+const numero = prompt("Inserisci un numero:");
 
 // convertiamo il numero inserito da string a intero
-// numero = parseInt(numero);
+numero = parseInt(numero);
 
 // verifichimao se il numero è pari o dispari
 if(numero % 2 === 0) {

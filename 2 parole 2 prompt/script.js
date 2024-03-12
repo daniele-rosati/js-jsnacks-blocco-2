@@ -11,12 +11,17 @@ const secondWord = prompt("Inserisci la seconda parola");
 const lunghezzafirstWord = firstWord.length;
 const lunghezzasecondWord = secondWord.length;
 
+
+
 // stampiamo prima la parola più corta poi quella più lunga
 
-if (lunghezzafirstWord < lunghezzasecondWord){
+if (lunghezzafirstWord <= lunghezzasecondWord){
     console.log(firstWord);
     console.log(secondWord);
-} else if (lunghezzasecondWord < lunghezzafirstWord) {
+} else if (lunghezzafirstWord > lunghezzasecondWord) {
     console.log(secondWord);
     console.log(firstWord);
-}
+ } // else {
+//     console.log(firstWord);
+//     console.log(secondWord);
+// }
